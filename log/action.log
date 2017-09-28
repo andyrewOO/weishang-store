@@ -1,0 +1,1291 @@
+[INFO] [16-08-30 19-50-34] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>   
+		<SvcScnId>05</SvcScnId>
+		<TmnlNo/>		
+		<ChnlType>MID</ChnlType>
+		<CnsmSysSeqNo>0102079</CnsmSysSeqNo>
+		<TranDate>20151110</TranDate>
+		<TranTime>12000000</TranTime>
+		<CnsmSysId>63</CnsmSysId>
+		<SubBnkId>2</SubBnkId>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+	</APP_HEAD>
+	<BODY>
+		<ReportType>315456000105</ReportType>
+		<CaseRptTp>01</CaseRptTp>
+		<ChnlType>01</ChnlType>
+		<ClientName>andy</ClientName>
+		<CnctTelNo>13277043368</CnctTelNo>
+		<IdType>01</IdType>
+		<IdCode>410825199112097677</IdCode>
+		<TranDsc>andyandy</TranDsc>
+		<TranSpec/>
+		<RptBrchNm>10001</RptBrchNm>
+		<OprtName>hengfengyinhang</OprtName>
+		<TelNo>13277043387</TelNo>
+		<TranDtlRcrd>
+			<TranSeqNo>123123</TranSeqNo>
+			<TranOcrTmStmp>20160909000000</TranOcrTmStmp>
+			<TranType>andy</TranType>
+			<CcyType>cny</CcyType>
+			<TranAmt>123</TranAmt>
+			<OutAcctBrchId>123</OutAcctBrchId>
+			<OutAcctBrchNm>1</OutAcctBrchNm>
+			<OutAcctNm>1</OutAcctNm>
+			<OutAcctNo>1</OutAcctNo>
+			<TrgtBrchId>2</TrgtBrchId>
+			<TrgtBrchNm>3</TrgtBrchNm>
+			<TrgtAcctNm>4</TrgtAcctNm>
+			<TrgtAcctNo>5</TrgtAcctNo>
+			<IP>6</IP>
+			<MACAdr>7</MACAdr>
+			<EqpmtNo>8</EqpmtNo>
+			<TranAdr>9</TranAdr>
+			<TranRmrk>10</TranRmrk>
+			<StpPymtSt>11</StpPymtSt>
+		</TranDtlRcrd>
+		<FileNmDtl>
+			<FileName>hetong</FileName>
+		</FileNmDtl>
+	</BODY>
+</service>
+
+[INFO] [16-08-30 19-50-34] [xitrum-akka.actor.default-dispatcher-20] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-08-30 19-50-34] [xitrum-akka.actor.default-dispatcher-20] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>   
+		<SvcScnId>05</SvcScnId>
+		<TmnlNo/>		
+		<ChnlType>MID</ChnlType>
+		<CnsmSysSeqNo>0102079</CnsmSysSeqNo>
+		<TranDate>20151110</TranDate>
+		<TranTime>12000000</TranTime>
+		<CnsmSysId>63</CnsmSysId>
+		<SubBnkId>2</SubBnkId>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+	</APP_HEAD>
+	<BODY>
+		<ReportType>315456000105</ReportType>
+		<CaseRptTp>01</CaseRptTp>
+		<ChnlType>01</ChnlType>
+		<ClientName>andy</ClientName>
+		<CnctTelNo>13277043368</CnctTelNo>
+		<IdType>01</IdType>
+		<IdCode>410825199112097677</IdCode>
+		<TranDsc>andyandy</TranDsc>
+		<TranSpec/>
+		<RptBrchNm>10001</RptBrchNm>
+		<OprtName>hengfengyinhang</OprtName>
+		<TelNo>13277043387</TelNo>
+		<TranDtlRcrd>
+			<TranSeqNo>123123</TranSeqNo>
+			<TranOcrTmStmp>20160909000000</TranOcrTmStmp>
+			<TranType>andy</TranType>
+			<CcyType>cny</CcyType>
+			<TranAmt>123</TranAmt>
+			<OutAcctBrchId>123</OutAcctBrchId>
+			<OutAcctBrchNm>1</OutAcctBrchNm>
+			<OutAcctNm>1</OutAcctNm>
+			<OutAcctNo>1</OutAcctNo>
+			<TrgtBrchId>2</TrgtBrchId>
+			<TrgtBrchNm>3</TrgtBrchNm>
+			<TrgtAcctNm>4</TrgtAcctNm>
+			<TrgtAcctNo>5</TrgtAcctNo>
+			<IP>6</IP>
+			<MACAdr>7</MACAdr>
+			<EqpmtNo>8</EqpmtNo>
+			<TranAdr>9</TranAdr>
+			<TranRmrk>10</TranRmrk>
+			<StpPymtSt>11</StpPymtSt>
+		</TranDtlRcrd>
+		<FileNmDtl>
+			<FileName>hetong</FileName>
+		</FileNmDtl>
+	</BODY>
+</service>
+
+[INFO] [16-08-30 19-50-34] [xitrum-akka.actor.default-dispatcher-20] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-08-30 19-50-34] [xitrum-akka.actor.default-dispatcher-20] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.caseReport
+[INFO] [16-08-30 19-50-34] [xitrum-akka.actor.default-dispatcher-20] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map()
+[INFO] [16-08-30 19-50-34] [xitrum-akka.actor.default-dispatcher-20] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction error(Throwable)
+[INFO] [16-08-30 19-51-03] [xitrum-akka.actor.default-dispatcher-7] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>   
+		<SvcScnId>05</SvcScnId>
+		<TmnlNo/>		
+		<ChnlType>MID</ChnlType>
+		<CnsmSysSeqNo>0102079</CnsmSysSeqNo>
+		<TranDate>20151110</TranDate>
+		<TranTime>12000000</TranTime>
+		<CnsmSysId>63</CnsmSysId>
+		<SubBnkId>2</SubBnkId>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+	</APP_HEAD>
+	<BODY>
+		<ReportType>315456000105</ReportType>
+		<CaseRptTp>01</CaseRptTp>
+		<ChnlType>01</ChnlType>
+		<ClientName>andy</ClientName>
+		<CnctTelNo>13277043368</CnctTelNo>
+		<IdType>01</IdType>
+		<IdCode>410825199112097677</IdCode>
+		<TranDsc>andyandy</TranDsc>
+		<TranSpec/>
+		<RptBrchNm>10001</RptBrchNm>
+		<OprtName>hengfengyinhang</OprtName>
+		<TelNo>13277043387</TelNo>
+		<TranDtlRcrd>
+			<TranSeqNo>123123</TranSeqNo>
+			<TranOcrTmStmp>20160909000000</TranOcrTmStmp>
+			<TranType>andy</TranType>
+			<CcyType>cny</CcyType>
+			<TranAmt>123</TranAmt>
+			<OutAcctBrchId>123</OutAcctBrchId>
+			<OutAcctBrchNm>1</OutAcctBrchNm>
+			<OutAcctNm>1</OutAcctNm>
+			<OutAcctNo>1</OutAcctNo>
+			<TrgtBrchId>2</TrgtBrchId>
+			<TrgtBrchNm>3</TrgtBrchNm>
+			<TrgtAcctNm>4</TrgtAcctNm>
+			<TrgtAcctNo>5</TrgtAcctNo>
+			<IP>6</IP>
+			<MACAdr>7</MACAdr>
+			<EqpmtNo>8</EqpmtNo>
+			<TranAdr>9</TranAdr>
+			<TranRmrk>10</TranRmrk>
+			<StpPymtSt>11</StpPymtSt>
+		</TranDtlRcrd>
+		<FileNmDtl>
+			<FileName>hetong</FileName>
+		</FileNmDtl>
+	</BODY>
+</service>
+
+[INFO] [16-08-30 19-51-03] [xitrum-akka.actor.default-dispatcher-4] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-08-30 19-51-03] [xitrum-akka.actor.default-dispatcher-4] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>   
+		<SvcScnId>05</SvcScnId>
+		<TmnlNo/>		
+		<ChnlType>MID</ChnlType>
+		<CnsmSysSeqNo>0102079</CnsmSysSeqNo>
+		<TranDate>20151110</TranDate>
+		<TranTime>12000000</TranTime>
+		<CnsmSysId>63</CnsmSysId>
+		<SubBnkId>2</SubBnkId>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+	</APP_HEAD>
+	<BODY>
+		<ReportType>315456000105</ReportType>
+		<CaseRptTp>01</CaseRptTp>
+		<ChnlType>01</ChnlType>
+		<ClientName>andy</ClientName>
+		<CnctTelNo>13277043368</CnctTelNo>
+		<IdType>01</IdType>
+		<IdCode>410825199112097677</IdCode>
+		<TranDsc>andyandy</TranDsc>
+		<TranSpec/>
+		<RptBrchNm>10001</RptBrchNm>
+		<OprtName>hengfengyinhang</OprtName>
+		<TelNo>13277043387</TelNo>
+		<TranDtlRcrd>
+			<TranSeqNo>123123</TranSeqNo>
+			<TranOcrTmStmp>20160909000000</TranOcrTmStmp>
+			<TranType>andy</TranType>
+			<CcyType>cny</CcyType>
+			<TranAmt>123</TranAmt>
+			<OutAcctBrchId>123</OutAcctBrchId>
+			<OutAcctBrchNm>1</OutAcctBrchNm>
+			<OutAcctNm>1</OutAcctNm>
+			<OutAcctNo>1</OutAcctNo>
+			<TrgtBrchId>2</TrgtBrchId>
+			<TrgtBrchNm>3</TrgtBrchNm>
+			<TrgtAcctNm>4</TrgtAcctNm>
+			<TrgtAcctNo>5</TrgtAcctNo>
+			<IP>6</IP>
+			<MACAdr>7</MACAdr>
+			<EqpmtNo>8</EqpmtNo>
+			<TranAdr>9</TranAdr>
+			<TranRmrk>10</TranRmrk>
+			<StpPymtSt>11</StpPymtSt>
+		</TranDtlRcrd>
+		<FileNmDtl>
+			<FileName>hetong</FileName>
+		</FileNmDtl>
+	</BODY>
+</service>
+
+[INFO] [16-08-30 19-51-08] [xitrum-akka.actor.default-dispatcher-4] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-08-30 19-51-08] [xitrum-akka.actor.default-dispatcher-4] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.caseReport
+[INFO] [16-08-30 19-51-08] [xitrum-akka.actor.default-dispatcher-4] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map()
+[INFO] [16-08-30 19-57-51] [xitrum-akka.actor.default-dispatcher-17] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>   
+		<SvcScnId>05</SvcScnId>
+		<TmnlNo/>		
+		<ChnlType>MID</ChnlType>
+		<CnsmSysSeqNo>0102079</CnsmSysSeqNo>
+		<TranDate>20151110</TranDate>
+		<TranTime>12000000</TranTime>
+		<CnsmSysId>63</CnsmSysId>
+		<SubBnkId>2</SubBnkId>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+	</APP_HEAD>
+	<BODY>
+		<ReportType>01</ReportType>
+		<CaseRptTp>01</CaseRptTp>
+		<ChnlType>01</ChnlType>
+		<ClientName>andy</ClientName>
+		<CnctTelNo>13277043368</CnctTelNo>
+		<IdType>01</IdType>
+		<IdCode>410825199112097677</IdCode>
+		<TranDsc>andyandy</TranDsc>
+		<TranSpec/>
+		<RptBrchNm>10001</RptBrchNm>
+		<OprtName>hengfengyinhang</OprtName>
+		<TelNo>13277043387</TelNo>
+		<TranDtlRcrd>
+			<TranSeqNo>123123</TranSeqNo>
+			<TranOcrTmStmp>20160909000000</TranOcrTmStmp>
+			<TranType>andy</TranType>
+			<CcyType>cny</CcyType>
+			<TranAmt>123</TranAmt>
+			<OutAcctBrchId>123</OutAcctBrchId>
+			<OutAcctBrchNm>1</OutAcctBrchNm>
+			<OutAcctNm>1</OutAcctNm>
+			<OutAcctNo>1</OutAcctNo>
+			<TrgtBrchId>2</TrgtBrchId>
+			<TrgtBrchNm>3</TrgtBrchNm>
+			<TrgtAcctNm>4</TrgtAcctNm>
+			<TrgtAcctNo>5</TrgtAcctNo>
+			<IP>6</IP>
+			<MACAdr>7</MACAdr>
+			<EqpmtNo>8</EqpmtNo>
+			<TranAdr>9</TranAdr>
+			<TranRmrk>10</TranRmrk>
+			<StpPymtSt>11</StpPymtSt>
+		</TranDtlRcrd>
+		<FileNmDtl>
+			<FileName>hetong</FileName>
+		</FileNmDtl>
+	</BODY>
+</service>
+
+[INFO] [16-08-30 19-57-51] [xitrum-akka.actor.default-dispatcher-19] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-08-30 19-57-51] [xitrum-akka.actor.default-dispatcher-19] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>   
+		<SvcScnId>05</SvcScnId>
+		<TmnlNo/>		
+		<ChnlType>MID</ChnlType>
+		<CnsmSysSeqNo>0102079</CnsmSysSeqNo>
+		<TranDate>20151110</TranDate>
+		<TranTime>12000000</TranTime>
+		<CnsmSysId>63</CnsmSysId>
+		<SubBnkId>2</SubBnkId>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+	</APP_HEAD>
+	<BODY>
+		<ReportType>01</ReportType>
+		<CaseRptTp>01</CaseRptTp>
+		<ChnlType>01</ChnlType>
+		<ClientName>andy</ClientName>
+		<CnctTelNo>13277043368</CnctTelNo>
+		<IdType>01</IdType>
+		<IdCode>410825199112097677</IdCode>
+		<TranDsc>andyandy</TranDsc>
+		<TranSpec/>
+		<RptBrchNm>10001</RptBrchNm>
+		<OprtName>hengfengyinhang</OprtName>
+		<TelNo>13277043387</TelNo>
+		<TranDtlRcrd>
+			<TranSeqNo>123123</TranSeqNo>
+			<TranOcrTmStmp>20160909000000</TranOcrTmStmp>
+			<TranType>andy</TranType>
+			<CcyType>cny</CcyType>
+			<TranAmt>123</TranAmt>
+			<OutAcctBrchId>123</OutAcctBrchId>
+			<OutAcctBrchNm>1</OutAcctBrchNm>
+			<OutAcctNm>1</OutAcctNm>
+			<OutAcctNo>1</OutAcctNo>
+			<TrgtBrchId>2</TrgtBrchId>
+			<TrgtBrchNm>3</TrgtBrchNm>
+			<TrgtAcctNm>4</TrgtAcctNm>
+			<TrgtAcctNo>5</TrgtAcctNo>
+			<IP>6</IP>
+			<MACAdr>7</MACAdr>
+			<EqpmtNo>8</EqpmtNo>
+			<TranAdr>9</TranAdr>
+			<TranRmrk>10</TranRmrk>
+			<StpPymtSt>11</StpPymtSt>
+		</TranDtlRcrd>
+		<FileNmDtl>
+			<FileName>hetong</FileName>
+		</FileNmDtl>
+	</BODY>
+</service>
+
+[INFO] [16-08-30 19-57-55] [xitrum-akka.actor.default-dispatcher-19] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-08-30 19-57-55] [xitrum-akka.actor.default-dispatcher-19] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.caseReport
+[INFO] [16-08-30 19-57-55] [xitrum-akka.actor.default-dispatcher-19] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map()
+[INFO] [16-08-30 19-58-01] [xitrum-akka.actor.default-dispatcher-19] c.e.t.a.e.EsbVerifyAction: Start caseReport_case
+[INFO] [16-08-31 09-57-16] [xitrum-akka.actor.default-dispatcher-16] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>   
+		<SvcScnId>05</SvcScnId>
+		<TmnlNo/>		
+		<ChnlType>MID</ChnlType>
+		<CnsmSysSeqNo>0102079</CnsmSysSeqNo>
+		<TranDate>20151110</TranDate>
+		<TranTime>12000000</TranTime>
+		<CnsmSysId>63</CnsmSysId>
+		<SubBnkId>2</SubBnkId>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+	</APP_HEAD>
+	<BODY>
+		<ReportType>01</ReportType>
+		<CaseRptTp>01</CaseRptTp>
+		<ChnlType>01</ChnlType>
+		<ClientName>andy</ClientName>
+		<CnctTelNo>13277043368</CnctTelNo>
+		<IdType>01</IdType>
+		<IdCode>410825199112097677</IdCode>
+		<TranDsc>andyandy</TranDsc>
+		<TranSpec/>
+		<RptBrchNm>10001</RptBrchNm>
+		<OprtName>hengfengyinhang</OprtName>
+		<TelNo>13277043387</TelNo>
+		<TranDtlRcrd>
+			<TranSeqNo>123123</TranSeqNo>
+			<TranOcrTmStmp>20160909000000</TranOcrTmStmp>
+			<TranType>andy</TranType>
+			<CcyType>cny</CcyType>
+			<TranAmt>123</TranAmt>
+			<OutAcctBrchId>123</OutAcctBrchId>
+			<OutAcctBrchNm>1</OutAcctBrchNm>
+			<OutAcctNm>1</OutAcctNm>
+			<OutAcctNo>1</OutAcctNo>
+			<TrgtBrchId>2</TrgtBrchId>
+			<TrgtBrchNm>3</TrgtBrchNm>
+			<TrgtAcctNm>4</TrgtAcctNm>
+			<TrgtAcctNo>5</TrgtAcctNo>
+			<IP>6</IP>
+			<MACAdr>7</MACAdr>
+			<EqpmtNo>8</EqpmtNo>
+			<TranAdr>9</TranAdr>
+			<TranRmrk>10</TranRmrk>
+			<StpPymtSt>11</StpPymtSt>
+		</TranDtlRcrd>
+		<FileNmDtl>
+			<FileName>hetong</FileName>
+		</FileNmDtl>
+	</BODY>
+</service>
+
+[INFO] [16-08-31 09-57-16] [xitrum-akka.actor.default-dispatcher-4] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-08-31 09-57-16] [xitrum-akka.actor.default-dispatcher-4] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>   
+		<SvcScnId>05</SvcScnId>
+		<TmnlNo/>		
+		<ChnlType>MID</ChnlType>
+		<CnsmSysSeqNo>0102079</CnsmSysSeqNo>
+		<TranDate>20151110</TranDate>
+		<TranTime>12000000</TranTime>
+		<CnsmSysId>63</CnsmSysId>
+		<SubBnkId>2</SubBnkId>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+	</APP_HEAD>
+	<BODY>
+		<ReportType>01</ReportType>
+		<CaseRptTp>01</CaseRptTp>
+		<ChnlType>01</ChnlType>
+		<ClientName>andy</ClientName>
+		<CnctTelNo>13277043368</CnctTelNo>
+		<IdType>01</IdType>
+		<IdCode>410825199112097677</IdCode>
+		<TranDsc>andyandy</TranDsc>
+		<TranSpec/>
+		<RptBrchNm>10001</RptBrchNm>
+		<OprtName>hengfengyinhang</OprtName>
+		<TelNo>13277043387</TelNo>
+		<TranDtlRcrd>
+			<TranSeqNo>123123</TranSeqNo>
+			<TranOcrTmStmp>20160909000000</TranOcrTmStmp>
+			<TranType>andy</TranType>
+			<CcyType>cny</CcyType>
+			<TranAmt>123</TranAmt>
+			<OutAcctBrchId>123</OutAcctBrchId>
+			<OutAcctBrchNm>1</OutAcctBrchNm>
+			<OutAcctNm>1</OutAcctNm>
+			<OutAcctNo>1</OutAcctNo>
+			<TrgtBrchId>2</TrgtBrchId>
+			<TrgtBrchNm>3</TrgtBrchNm>
+			<TrgtAcctNm>4</TrgtAcctNm>
+			<TrgtAcctNo>5</TrgtAcctNo>
+			<IP>6</IP>
+			<MACAdr>7</MACAdr>
+			<EqpmtNo>8</EqpmtNo>
+			<TranAdr>9</TranAdr>
+			<TranRmrk>10</TranRmrk>
+			<StpPymtSt>11</StpPymtSt>
+		</TranDtlRcrd>
+		<FileNmDtl>
+			<FileName>hetong</FileName>
+		</FileNmDtl>
+	</BODY>
+</service>
+
+[INFO] [16-08-31 09-57-21] [xitrum-akka.actor.default-dispatcher-4] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-08-31 09-57-21] [xitrum-akka.actor.default-dispatcher-4] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.caseReport
+[INFO] [16-08-31 09-57-21] [xitrum-akka.actor.default-dispatcher-4] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map()
+[INFO] [16-08-31 09-57-21] [xitrum-akka.actor.default-dispatcher-4] c.e.t.a.e.EsbVerifyAction: Start caseReport_case
+[INFO] [16-09-01 17-36-20] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>03</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-01 17-36-20] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-09-01 17-36-20] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>03</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-01 17-36-20] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-09-01 17-36-20] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.None
+[INFO] [16-09-01 17-36-20] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map()
+[ERROR] [16-09-01 17-36-20] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: No match, error SvcScnId
+[INFO] [16-09-01 17-36-20] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction error(EsbException)
+[INFO] [16-09-01 17-47-55] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+
+[INFO] [16-09-01 17-47-55] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbAdapterAction: EsbVerifyAction error(Throwable)
+[INFO] [16-09-14 10-00-37] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>03</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-00-37] [xitrum-akka.actor.default-dispatcher-2] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-09-14 10-00-37] [xitrum-akka.actor.default-dispatcher-2] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>03</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-00-37] [xitrum-akka.actor.default-dispatcher-2] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-09-14 10-00-37] [xitrum-akka.actor.default-dispatcher-2] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.None
+[INFO] [16-09-14 10-00-37] [xitrum-akka.actor.default-dispatcher-2] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map()
+[ERROR] [16-09-14 10-00-37] [xitrum-akka.actor.default-dispatcher-2] c.e.t.a.e.EsbVerifyAction: No match, error SvcScnId
+[INFO] [16-09-14 10-00-37] [xitrum-akka.actor.default-dispatcher-2] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction error(EsbException)
+[INFO] [16-09-14 10-02-49] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>02</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-02-49] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-09-14 10-02-49] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>02</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-02-49] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-09-14 10-02-49] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.suspiciousAccountVer
+[INFO] [16-09-14 10-02-49] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map(TranSeqNo -> , IdType -> 02, IdCode -> 123, ChnlType -> 02)
+[INFO] [16-09-14 10-02-49] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: error message:TranSeqNo:,必填字段为空
+[INFO] [16-09-14 10-02-49] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction error(EsbException)
+[INFO] [16-09-14 10-03-16] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>02</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+<TranSeqNo>123123</TranSeqNo>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-03-16] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-09-14 10-03-16] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>02</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+<TranSeqNo>123123</TranSeqNo>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-03-16] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-09-14 10-03-16] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.suspiciousAccountVer
+[INFO] [16-09-14 10-03-16] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map(TranSeqNo -> 123123, IdType -> 02, IdCode -> 123, ChnlType -> 02)
+[INFO] [16-09-14 10-03-16] [xitrum-akka.actor.default-dispatcher-21] c.e.t.a.e.EsbVerifyAction: The Property,checkBlackList,value:on
+[INFO] [16-09-14 10-03-58] [xitrum-akka.actor.default-dispatcher-5] c.e.t.a.e.EsbVerifyAction: Send to ESB:<service>
+      <SYS_HEAD>
+        <CnsmSysId/>
+        <TranRetSt/>
+        <TranDate/>
+        <array>
+          <RetInf>
+            <RetMsg>fail</RetMsg>
+            <RetCode>111</RetCode>
+          </RetInf>
+        </array>
+        <Mac/>
+        <MacOrgId/>
+        <PrvdSysId/>
+        <SvcScnId></SvcScnId>
+        <TranTime/>
+        <CnsmSysSeqNo/>
+        <PrvdSysSeqNo/>
+        <SvcId></SvcId>
+      </SYS_HEAD>
+      <APP_HEAD>
+        <ChkFlag/>
+        <AuthFlag/>
+        <TlrPswd/>
+        <AuthTlrId/>
+        <TellerId/>
+        <BranchId/>
+        <TlrType/>
+        <AuthBrchId/>
+        <TlrLvl/>
+      </APP_HEAD>
+      <BODY>
+        <TranSeqNo>123123</TranSeqNo>
+        <TranSt></TranSt>
+        <TranDsc></TranDsc>
+        <TranSrc>cfca</TranSrc>
+      </BODY>
+    </service>
+[INFO] [16-09-14 10-04-41] [xitrum-akka.actor.default-dispatcher-5] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>02</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+<TranSeqNo>123123</TranSeqNo>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-04-41] [xitrum-akka.actor.default-dispatcher-5] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-09-14 10-04-41] [xitrum-akka.actor.default-dispatcher-5] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>02</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+<TranSeqNo>123123</TranSeqNo>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-04-41] [xitrum-akka.actor.default-dispatcher-5] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-09-14 10-04-41] [xitrum-akka.actor.default-dispatcher-5] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.suspiciousAccountVer
+[INFO] [16-09-14 10-04-41] [xitrum-akka.actor.default-dispatcher-5] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map(TranSeqNo -> 123123, IdType -> 02, IdCode -> 123, ChnlType -> 02)
+[INFO] [16-09-14 10-04-41] [xitrum-akka.actor.default-dispatcher-5] c.e.t.a.e.EsbVerifyAction: The Property,checkBlackList,value:off
+[INFO] [16-09-14 10-04-41] [xitrum-akka.actor.default-dispatcher-5] c.e.t.a.e.EsbVerifyAction: Send to ESB:<service><SYS_HEAD><SvcId/><SvcScnId/><CnsmSysId/><PrvdSysId/><CnsmSysSeqNo/><PrvdSysSeqNo/><Mac/><MacOrgId/><TranDate/><TranTime/><TranRetSt/><array><RetInf><RetCode>112</RetCode><RetMsg>service closed</RetMsg></RetInf></array><PrvdSysSvrId/></SYS_HEAD><APP_HEAD/><BODY/></service>
+[INFO] [16-09-14 10-11-07] [xitrum-akka.actor.default-dispatcher-3] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>02</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+<TranSeqNo>123123</TranSeqNo>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-11-07] [xitrum-akka.actor.default-dispatcher-3] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-09-14 10-11-07] [xitrum-akka.actor.default-dispatcher-3] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>02</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>123</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+<TranSeqNo>123123</TranSeqNo>
+		<IdType>02</IdType>
+		<BankId>31000015</BankId>
+		<IdCode>123</IdCode>
+		<Name>234</Name>
+		<ChnlType>2</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-11-07] [xitrum-akka.actor.default-dispatcher-3] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-09-14 10-11-07] [xitrum-akka.actor.default-dispatcher-3] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.suspiciousAccountVer
+[INFO] [16-09-14 10-11-07] [xitrum-akka.actor.default-dispatcher-3] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map(TranSeqNo -> 123123, IdType -> 02, IdCode -> 123, ChnlType -> 02)
+[INFO] [16-09-14 10-11-07] [xitrum-akka.actor.default-dispatcher-3] c.e.t.a.e.EsbVerifyAction: The Property,checkBlackList, is error
+[INFO] [16-09-14 10-11-07] [xitrum-akka.actor.default-dispatcher-3] c.e.t.a.e.EsbVerifyAction: Send to ESB:<service><SYS_HEAD><SvcId/><SvcScnId/><CnsmSysId/><PrvdSysId/><CnsmSysSeqNo/><PrvdSysSeqNo/><Mac/><MacOrgId/><TranDate/><TranTime/><TranRetSt/><array><RetInf><RetCode>111</RetCode><RetMsg>service error</RetMsg></RetInf></array><PrvdSysSvrId/></SYS_HEAD><APP_HEAD/><BODY/></service>
+[INFO] [16-09-14 10-12-58] [xitrum-akka.actor.default-dispatcher-15] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>04</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>1234567890</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+		<TranSeqNo>123</TranSeqNo>
+		<OutIdType>01</OutIdType>
+		<OutBnkId>310005</OutBnkId>
+		<OutIdCode>123</OutIdCode>
+		<OutAcctNm>123</OutAcctNm>
+		<InIdType>01</InIdType>
+		<InBnkId>310005</InBnkId>
+		<InIdCode>234</InIdCode>
+		<InAcctNm>234</InAcctNm>
+		<ChnlType>1</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-12-58] [xitrum-akka.actor.default-dispatcher-15] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-09-14 10-12-58] [xitrum-akka.actor.default-dispatcher-15] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>04</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>1234567890</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+		<TranSeqNo>123</TranSeqNo>
+		<OutIdType>01</OutIdType>
+		<OutBnkId>310005</OutBnkId>
+		<OutIdCode>123</OutIdCode>
+		<OutAcctNm>123</OutAcctNm>
+		<InIdType>01</InIdType>
+		<InBnkId>310005</InBnkId>
+		<InIdCode>234</InIdCode>
+		<InAcctNm>234</InAcctNm>
+		<ChnlType>1</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-12-58] [xitrum-akka.actor.default-dispatcher-15] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-09-14 10-12-58] [xitrum-akka.actor.default-dispatcher-15] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.suspiciousDoubleVer
+[INFO] [16-09-14 10-12-58] [xitrum-akka.actor.default-dispatcher-15] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map(OutIdType -> 01, InIdCode -> 234, ChnlType -> 01, TranSeqNo -> 123, OutIdCode -> 123, InIdType -> 01)
+[INFO] [16-09-14 10-12-58] [xitrum-akka.actor.default-dispatcher-15] c.e.t.a.e.EsbVerifyAction: The Property,checkBlackList,value:off
+[INFO] [16-09-14 10-12-58] [xitrum-akka.actor.default-dispatcher-15] c.e.t.a.e.EsbVerifyAction: Send to ESB:<service><SYS_HEAD><SvcId/><SvcScnId/><CnsmSysId/><PrvdSysId/><CnsmSysSeqNo/><PrvdSysSeqNo/><Mac/><MacOrgId/><TranDate/><TranTime/><TranRetSt/><array><RetInf><RetCode>112</RetCode><RetMsg>service closed</RetMsg></RetInf></array><PrvdSysSvrId/></SYS_HEAD><APP_HEAD/><BODY/></service>
+[INFO] [16-09-14 10-13-17] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbAdapterAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>04</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>1234567890</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+		<TranSeqNo>123</TranSeqNo>
+		<OutIdType>01</OutIdType>
+		<OutBnkId>310005</OutBnkId>
+		<OutIdCode>123</OutIdCode>
+		<OutAcctNm>123</OutAcctNm>
+		<InIdType>01</InIdType>
+		<InBnkId>310005</InBnkId>
+		<InIdCode>234</InIdCode>
+		<InAcctNm>234</InAcctNm>
+		<ChnlType>1</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-13-17] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: Start EsbVerifyAction
+[INFO] [16-09-14 10-13-17] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: receive ESB request: 
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<SYS_HEAD>
+		<SvcId>120020017</SvcId>
+		<SvcScnId>04</SvcScnId>
+		<CnsmSysId>36</CnsmSysId>
+		<ChnlType>0</ChnlType>
+		<SrcSysId/>
+		<CnsmSysSeqNo>1234567890</CnsmSysSeqNo>
+		<SrcSysSeqNo/>
+		<Mac/>
+		<MacOrgId/>
+		<TranMode/>
+		<TranDate>20151110</TranDate>
+		<TranTime/>
+		<TmnlNo>B001000010001B003</TmnlNo>
+		<SrcSySysnlNo/>
+		<CnsmSysSvrId/>
+		<SrcSysSvrId/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<TellerId>001812</TellerId>
+		<BranchId>5351001</BranchId>
+		<TlrPswd/>
+		<TlrLvl/>
+		<TlrType/>
+		<ChkFlag/>
+		<AuthFlag/>
+		<AuthTlrId/>
+		<AuthBrId/>
+		<AuthTlrPswd/>
+	</APP_HEAD>
+	<BODY>
+		<TranSeqNo>123</TranSeqNo>
+		<OutIdType>01</OutIdType>
+		<OutBnkId>310005</OutBnkId>
+		<OutIdCode>123</OutIdCode>
+		<OutAcctNm>123</OutAcctNm>
+		<InIdType>01</InIdType>
+		<InBnkId>310005</InBnkId>
+		<InIdCode>234</InIdCode>
+		<InAcctNm>234</InAcctNm>
+		<ChnlType>1</ChnlType>
+	</BODY>
+</service>
+[INFO] [16-09-14 10-13-17] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: start checking requisite field
+[INFO] [16-09-14 10-13-17] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: EsbVerifyAction.suspiciousDoubleVer
+[INFO] [16-09-14 10-13-17] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: Need to check field and value:Map(OutIdType -> 01, InIdCode -> 234, ChnlType -> 01, TranSeqNo -> 123, OutIdCode -> 123, InIdType -> 01)
+[INFO] [16-09-14 10-13-17] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: The Property,checkBlackList,value:on
+[INFO] [16-09-14 10-13-59] [xitrum-akka.actor.default-dispatcher-22] c.e.t.a.e.EsbVerifyAction: Send to ESB:<service>
+      <SYS_HEAD>
+        <CnsmSysId/>
+        <TranRetSt/>
+        <TranDate/>
+        <array>
+          <RetInf>
+            <RetMsg>fail</RetMsg>
+            <RetCode>111</RetCode>
+          </RetInf>
+        </array>
+        <Mac/>
+        <MacOrgId/>
+        <PrvdSysId/>
+        <SvcScnId></SvcScnId>
+        <TranTime/>
+        <CnsmSysSeqNo/>
+        <PrvdSysSeqNo/>
+        <SvcId></SvcId>
+      </SYS_HEAD>
+      <APP_HEAD>
+        <ChkFlag/>
+        <AuthFlag/>
+        <TlrPswd/>
+        <AuthTlrId/>
+        <TellerId/>
+        <BranchId/>
+        <TlrType/>
+        <AuthBrchId/>
+        <TlrLvl/>
+      </APP_HEAD>
+      <BODY>
+        <TranSeqNo>123</TranSeqNo>
+        <TranSt></TranSt>
+        <OutTranDsc></OutTranDsc>
+        <InTranDsc></InTranDsc>
+        <TranSrc>cfca</TranSrc>
+      </BODY>
+    </service>

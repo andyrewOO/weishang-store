@@ -1,0 +1,36 @@
+<Response>
+	<Head>
+		<TxCode>100303</TxCode>
+		<MessageFrom>123</MessageFrom>
+		<TransSerialNumber>12312312313234345345</TransSerialNumber>
+	</Head>
+	<Body>
+		<ApplicationID>cfca12334322</ApplicationID>
+		<CaseNumber>01</CaseNumber>
+		<CaseType>09</CaseType>
+		<EmergencyLevel>01</EmergencyLevel>
+		<SubjectType>01</SubjectType>
+		<BankID>01</BankID>
+		<BankName>asdfa</BankName>
+		<AccountName>asfa</AccountName>
+		<CardNumber>62238453500098285</CardNumber>
+		<Reason>123213</Reason>
+		<Remark>123</Remark>
+		<ApplicationTime>20120902120000</ApplicationTime>
+		<ApplicationOrgID>09</ApplicationOrgID>
+		<ApplicationOrgName>andrew</ApplicationOrgName>
+		<OperatorIDType>99</OperatorIDType>
+		<OperatorIDNumber>123</OperatorIDNumber>
+		<OperatorName>asdfadf</OperatorName>
+		<OperatorPhoneNumber>123123</OperatorPhoneNumber>
+		<InvestigatorIDType>01</InvestigatorIDType>
+		<InvestigatorIDNumber>1231231231231</InvestigatorIDNumber>
+		<InvestigatorName>adfaf</InvestigatorName>
+		<Attachments>
+			<Attachment>
+				<Filename>1</Filename>
+				<Content>1</Content>
+			</Attachment>
+		</Attachments>
+	</Body>
+</Response>

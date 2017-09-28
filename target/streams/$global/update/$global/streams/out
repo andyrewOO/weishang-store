@@ -1,0 +1,400 @@
+[0m[[0minfo[0m] [0mUpdating {file:/F:/MyEclipseWorkSpace/tfemp-app/}tfemp-app...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: com.egfbank#tfemp-app_2.11;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scalate][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78b49858[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->tv.cntt#xgettext_2.11;1.3 [plugin->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving tv.cntt#xgettext_2.11;1.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: tv.cntt#xgettext_2.11;1.3 {plugin=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: tv.cntt#xgettext_2.11;1.3[0m
+[0m[[0mdebug[0m] [0m	found tv.cntt#xgettext_2.11;1.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->tv.cntt#xgettext_2.11;1.3 [plugin->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->tv.cntt#xgettext_2.11;1.3 [plugin->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xgettext_2.11;1.3->org.scala-lang#scala-compiler;2.11.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xgettext_2.11;1.3->org.scala-lang#scala-compiler;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-library;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xgettext_2.11;1.3->org.scala-lang#scala-compiler;2.11.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xgettext_2.11;1.3->org.scala-lang#scala-compiler;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xgettext_2.11;1.3->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xgettext_2.11;1.3->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xgettext_2.11;1.3->org.scala-lang#scala-compiler;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xgettext_2.11;1.3->org.scala-lang#scala-compiler;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xgettext_2.11;1.3->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xgettext_2.11;1.3->org.scala-lang#scala-library;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->tv.cntt#xgettext_2.11;1.3 [plugin->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-reflect;2.11.8[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scalate'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.egfbank#tfemp-app_2.11;1.0 [scalate][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->com.mojolly.scalate#scalate-generator_2.11;0.5.0 [scalate->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.mojolly.scalate#scalate-generator_2.11;0.5.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.mojolly.scalate#scalate-generator_2.11;0.5.0 {scalate=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.mojolly.scalate#scalate-generator_2.11;0.5.0[0m
+[0m[[0mdebug[0m] [0m	found com.mojolly.scalate#scalate-generator_2.11;0.5.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->com.mojolly.scalate#scalate-generator_2.11;0.5.0 [scalate->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->com.mojolly.scalate#scalate-generator_2.11;0.5.0 [scalate->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.0] org.scala-lang#scala-library;2.11.0[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scala-lang#scala-library;2.11.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scala-lang#scala-library;2.11.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scalatra.scalate#scalate-core_2.11;1.7.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatra.scalate#scalate-core_2.11;1.7.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatra.scalate#scalate-core_2.11;1.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatra.scalate#scalate-core_2.11;1.7.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalatra.scalate#scalate-core_2.11;1.7.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scalatra.scalate#scalate-core_2.11;1.7.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scalatra.scalate#scalate-util_2.11;1.7.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatra.scalate#scalate-util_2.11;1.7.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatra.scalate#scalate-util_2.11;1.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatra.scalate#scalate-util_2.11;1.7.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalatra.scalate#scalate-util_2.11;1.7.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scalatra.scalate#scalate-util_2.11;1.7.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.6.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scala-lang#scala-compiler;2.11.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.0] org.scala-lang#scala-reflect;2.11.0[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scalatra.scalate#scalate-core_2.11;1.7.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scalatra.scalate#scalate-core_2.11;1.7.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scalatra.scalate#scalate-util_2.11;1.7.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scalatra.scalate#scalate-util_2.11;1.7.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.slf4j#slf4j-api;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang#scala-library;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.slf4j#slf4j-api;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scala-lang#scala-compiler;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scala-lang#scala-compiler;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scala-lang#scala-library;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scalatra.scalate#scalate-core_2.11;1.7.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scalatra.scalate#scalate-core_2.11;1.7.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.egfbank#tfemp-app_2.11;1.0->com.mojolly.scalate#scalate-generator_2.11;0.5.0 [scalate->master][0m
+[0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-compiler;2.11.0->...[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] tv.cntt#xgettext_2.11;1.3!xgettext_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.2!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.mojolly.scalate#scalate-generator_2.11;0.5.0!scalate-generator_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra.scalate#scalate-core_2.11;1.7.0!scalate-core_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra.scalate#scalate-util_2.11;1.7.0!scalate-util_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.1!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.0!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.0!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1501ms :: artifacts dl 60ms[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 compile produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 runtime produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 test produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 provided produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 optional produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 compile-internal produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 runtime-internal produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 test-internal produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 plugin produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 sources produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 docs produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 pom produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 scala-tool produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.egfbank#tfemp-app_2.11;1.0 scalate produced in F:\MyEclipseWorkSpace\tfemp-app\target\resolution-cache\reports\com.egfbank-tfemp-app_2.11-scalate.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1501ms resolve - 60ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
